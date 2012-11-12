@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/userlabel" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/user" />
+	<EditText android:id="@+id/userentry" android:layout_width="fill_parent"
+		android:singleLine="true" android:layout_height="wrap_content"
+		android:background="@android:drawable/editbox_background"
+		android:layout_below="@id/userlabel" />
+	<TextView android:id="@+id/passwordlabel"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@id/userentry" android:text="@string/password" />
+	<EditText android:id="@+id/passwordentry"
+		android:layout_width="fill_parent" android:password="true"
+		android:singleLine="true" android:layout_height="wrap_content"
+		android:background="@android:drawable/editbox_background"
+		android:layout_below="@id/passwordlabel" />
+	<Button android:id="@+id/loginbutton" android:layout_height="wrap_content" android:layout_below="@id/passwordentry"
+		android:layout_alignParentRight="true" android:layout_marginLeft="10dip"
+		android:text="@string/login" android:layout_width="100dip"/>
+	<CheckBox android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/rememberBox"
+		android:layout_toLeftOf="@+id/loginbutton" android:text="@string/remember"
+		android:layout_alignTop="@+id/loginbutton" android:layout_alignBottom="@+id/loginbutton"></CheckBox>
+	<TextView android:id="@+id/resultlabel" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/loginbutton"
+		android:text="@string/pleaselogin" />
+</RelativeLayout>

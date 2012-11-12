@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TrackDroid</string>
+	<string name="login">Login</string>
+	<string name="user">Username</string>
+	<string name="password">Password</string>
+	<string name="pleaselogin">Please login!</string>
+	<string name="loginfailed">Login failed!</string>
+	<string name="loginsuccessful">Login successful!</string>
+	<string name="nointernet">Could not connect to the server! Is internet available?</string>
+	<string name="servererror">Server error! Please try again later.</string>
+	<string name="exit">Exit application</string>
+	<string name="retry">Retry</string>
+	<string name="remember">Remember me</string>
+	<string name="location">Location</string>
+	<string name="speed">Speed</string>
+	<string name="reloadcars">Reload cars</string>
+</resources>

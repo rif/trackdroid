@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TrackDroid</string>
+	<string name="login">Autentificare</string>
+	<string name="user">Utilizator</string>
+	<string name="password">Parola</string>
+	<string name="pleaselogin">Vă rog să vă autentificați!</string>
+	<string name="loginfailed">Autentificare nereușita!</string>
+	<string name="loginsuccessful">Autentificare reușită!!</string>
+	<string name="nointernet">Nu mă pot conecta la server! Este internetul disponibil?</string>
+	<string name="servererror">Eroare de server! Vă rugăm să încercați mai târziu.</string>
+	<string-array name="countries_array">
+		<item>Bahrain</item>
+		<item>Bangladesh</item>
+		<item>Barbados</item>
+		<item>Belarus</item>
+		<item>Belgium</item>
+		<item>Belize</item>
+		<item>Benin</item>
+	</string-array>
+	<string name="remember">Ține minte</string>
+</resources>
